@@ -19,6 +19,21 @@ class mysql_setup {
     database_grant { "website@%/website_db":
         privileges => ["all"],
     }
+
+    database_user { "website@localhost":
+        password_hash => mysql_password("website"),
+    }
+
+    database_grant { "website@localhost/website_db":
+        privileges => ["all"],
+    }
+    database_user { "website@127.0.0.1":
+        password_hash => mysql_password("website"),
+    }
+
+    database_grant { "website@127.0.0.1/website_db":
+        privileges => ["all"],
+    }    
 }
 
 include mysql_setup
