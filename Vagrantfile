@@ -18,10 +18,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #config.vm.synced_folder ".", "/vagrant", :nfs => true, :owner=> "www-data", :group=>"www-data"
   config.vm.synced_folder ".", "/var/www/sugar", :nfs => true, :owner=> "www-data", :group=>"www-data"
 
-  config.vm.provision :puppet do |puppet|
-    puppet.manifests_path = "puppet/manifests"
-    puppet.manifest_file  = "init.pp"
-    puppet.module_path    = "puppet/modules"
-  end
-
+  #config.vm.provision :puppet do |puppet|
+  #  puppet.manifests_path = "puppet/manifests"
+  #  puppet.manifest_file  = "init.pp"
+  #  puppet.module_path    = "puppet/modules"
+  #end
 end
