@@ -34,7 +34,7 @@ Installation instruction:
   (check if you can connect to the machine)
   
   7. Install apache2, mysql and php(one time only):
-      '''
+      ```
       sudo su -
       (as root user)
       apt-get update
@@ -52,7 +52,7 @@ Installation instruction:
       http://www.ubuntugeek.com/install-sugarcrm-community-edition-in-ubuntu-810-server.html
 
       (further fine tunning might be needed)
-      '''
+      ```
   8. Add new line to your /etc/hosts file or c:\windows\system32\drivers\etc\hosts
      10.0.50.11 dev.local
   9. Open dev.local in your browser
