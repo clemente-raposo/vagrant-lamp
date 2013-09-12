@@ -12,7 +12,7 @@ By the end of the installation you will get:
 
 Database configuration for your project:
 
-  - Database host: 10.0.50.11
+  - Database host: 192.168.33.10
   - Port: 3306
 
 Installation instruction:
@@ -53,7 +53,7 @@ Installation instruction:
       ```
   8. Add new line to your /etc/hosts file or c:\windows\system32\drivers\etc\hosts
      ```
-     10.0.50.11 dev.local
+     192.168.33.10 dev.local
      ```
   9. Open dev.local in your browser
   10. Check you can connect to the database on port 3306 on localhost

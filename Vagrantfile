@@ -13,7 +13,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.network :forwarded_port, guest: 80, host: 8080      #apache
   config.vm.network :forwarded_port, guest: 3306, host: 3306    # mysql  
-  config.vm.network :private_network, ip: "10.0.50.11"
+  config.vm.network :private_network, ip: "192.168.33.10"
 
   #config.vm.synced_folder ".", "/vagrant", :nfs => true, :owner=> "www-data", :group=>"www-data"
   config.vm.synced_folder ".", "/var/www/sugar", :nfs => true, :owner=> "www-data", :group=>"www-data"
