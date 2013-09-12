@@ -54,7 +54,9 @@ Installation instruction:
       (further fine tunning might be needed)
       ```
   8. Add new line to your /etc/hosts file or c:\windows\system32\drivers\etc\hosts
+     ```
      10.0.50.11 dev.local
+     ```
   9. Open dev.local in your browser
   10. Check you can connect to the database on port 3306 on localhost
   
