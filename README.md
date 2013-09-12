@@ -13,9 +13,7 @@ By the end of the installation you will get:
 Database configuration for your project:
 
   - Database host: 10.0.50.11
-  - Database name: website_db
-  - Database user: website
-  - Database pass: website
+  - Port: 3306
 
 Installation instruction:
 -------------------------
@@ -28,7 +26,7 @@ Installation instruction:
   5. Run: > vagrant up
   (it will take a few minutes at least for first time)
   
-  6. Run: > vagrant ssh (OR use a ssh client, like putty  to connect to: vagrant@127.0.0.1 -p2222  OR  vagrant@10.0.50.11
+  6. Run: > vagrant ssh (OR use a ssh client, like putty  to connect to: vagrant@127.0.0.1 -p2222  OR  vagrant@10.0.50.11)
             User: vagrant
             Password: vagrant
   (check if you can connect to the machine)
