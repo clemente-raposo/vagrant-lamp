@@ -19,7 +19,7 @@ Database configuration for your project:
 
 Installation instruction:
 -------------------------
-  (Be sure that ports 80, 2222 and 3306 are not being used on host machine. If they are you need to change VagrantFile)
+  (Be sure that ports 80, 2222 and 3306 are not being used on host machine. If they are, you need to change VagrantFile)
 
   1. Download and install [VirtualBox][1]  -- tested with 4.2.18 on Windows 8
   2. Download and install [Vagrant][2]     -- tested with 1.3.1  on Windows 8
